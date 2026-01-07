@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <header>
+      <h1>Gestione Catalogo</h1>
+      <nav>
+        <a href="/products">Lista Prodotti</a> |
+        <a href="/products/new">Nuovo Prodotto</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      {% block content %}{% end %}
+    </main>
+
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+      nav a { margin-right: 10px; text-decoration: none; color: #333; font-weight: bold; }
+      nav a:hover { color: #007bff; }
+      main { margin-top: 20px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+      h2 { color: #444; }
+    </style>
+  </body>
+</html>
